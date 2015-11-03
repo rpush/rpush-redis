@@ -19,6 +19,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency "modis", "~> 1.4", ">= 1.4.1"
+  spec.add_dependency "msgpack_rails", "~> 0.4", ">= 0.4.2"
 
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake"
