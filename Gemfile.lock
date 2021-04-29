@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rpush-redis (1.1.0)
+    rpush-redis (1.2.0)
       modis (>= 3.0, < 5.0)
 
 GEM
