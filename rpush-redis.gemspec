@@ -18,6 +18,12 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
+  s.metadata    = {
+    "bug_tracker_uri" => "https://github.com/rpush/rpush-redis/issues",
+    "changelog_uri" => "https://github.com/rpush/rpush-redis/blob/master/CHANGELOG.md",
+    "source_code_uri" => "https://github.com/rpush/rpush-redis"
+  }
+
   spec.add_dependency "modis", [">= 3.0", "< 5.0"]
 
   spec.add_development_dependency "bundler"
